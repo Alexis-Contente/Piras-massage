@@ -1,0 +1,10 @@
+.titre {
+    color: #1abf9d;
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
