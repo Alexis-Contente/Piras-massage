@@ -1,0 +1,28 @@
+footer {
+  height: 100px;
+  background-color: #1abf9d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
