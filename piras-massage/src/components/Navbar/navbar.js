@@ -28,11 +28,11 @@ useEffect(() => {
         // NAVBAR
         <nav>
             {(toggleMenu || screenWidth > 900) && (
-            <ul className="list">
-                <li className="items">Accueil</li>
-                <li className="items">Massages</li>
-                <li className="items">Contact</li>
-            </ul>
+                <ul className="list">
+                    <li className="items">Accueil</li>
+                    <li className="items">Massages</li>
+                    <li className="items">Contact</li>
+                </ul>
             )}
 
             <button onClick={toggleNav} className="btn">BTN</button>
