@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './navbar.css';
 import React, {useState, useEffect} from 'react'
 
@@ -29,9 +30,9 @@ useEffect(() => {
         <nav>
             {(toggleMenu || screenWidth > 900) && (
                 <ul className="list">
-                    <li className="items">Accueil</li>
-                    <li className="items">Massages</li>
-                    <li className="items">Contact</li>
+                    <li><NavLink className="items" to="/">Accueil</NavLink></li>
+                    <li><NavLink className="items" to="/massages">Massages</NavLink></li>
+                    <li><NavLink className="items" to="/contact">Contact</NavLink></li>
                 </ul>
             )}
 
