@@ -4,6 +4,7 @@ import Home from './components/Home/home';
 import NotFound from './components/NotFound/notFound';
 import MassagesPage from './components/MassagesPage/massagesPage';
 import Contact from './components/Contact/contact';
+import Degree from './components/Degree/degree';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element=<Home /> />
         <Route path="/massages" element=<MassagesPage /> />
+        <Route path="/degree" element=<Degree /> />
         <Route path="/contact" element=<Contact /> />
         <Route path="*" element=<NotFound /> />
       </Routes>

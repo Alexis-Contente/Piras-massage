@@ -32,6 +32,7 @@ useEffect(() => {
                 <ul className="list">
                     <li><NavLink className="items" to="/">Accueil</NavLink></li>
                     <li><NavLink className="items" to="/massages">Massages</NavLink></li>
+                    <li><NavLink className="items" to="/degree">Diplômes</NavLink></li>
                     <li><NavLink className="items" to="/contact">Contact</NavLink></li>
                 </ul>
             )}
